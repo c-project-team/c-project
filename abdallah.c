@@ -1,7 +1,7 @@
 
 read();
  void read(){
-    if((fptr=fopen("dada.txt","rb"))==NULL){
+    if((fptr=fopen("store.txt","rb"))==NULL){
         printf("can not open the file\n");
         exit(3);}
         while(fread(&item,sizeof(item),1,fptr)){
@@ -30,12 +30,12 @@ read();
         fclose(fptr);
 }
 void clear(){
-      fptr=fopen("dada.txt","wb");
+      fptr=fopen("store.txt","wb");
       fclose(fptr);
 
 }
 void storedata(){
-             if((fptr=fopen("dada.txt","wb"))==NULL){
+             if((fptr=fopen("store.txt","wb"))==NULL){
         printf("can not open the file\n");
         exit(2);
         }
