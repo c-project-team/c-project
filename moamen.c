@@ -45,8 +45,9 @@ void modify(int a){
             printf(" the Name of product %s \n",temp->name);
             printf(" the price of  %d \n",temp->price);
             printf(" the number of product %d \n",temp->number);
-            printf("\nif you want to add number to this product enter 1 \n "
-                    "and if you want to remove number from this product enter 2 \n");
+            printf("\n if you want to add number to this product enter 1 \n "
+                    "if you want to remove number from this product enter 2 \n"
+                    " if you want to change price for this product enter 3\n");
             int choice;
             int num;
             scanf("%d",&choice);
@@ -62,6 +63,10 @@ void modify(int a){
                     temp->number-=num;
                     printf("the number has been decreased \n");
 
+            }
+            else if(choice == 3){
+                printf("please enter the new price \n");
+                scanf("%d",&temp->price);
             }
             else{
                 puts(" wrong choice ");
