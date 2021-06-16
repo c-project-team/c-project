@@ -11,7 +11,7 @@ int number;
 struct  info *link ;
 
 }info;
-info *top=NULL, *ptr;
+info *top=NULL, *ptr ,*fre;
  FILE *fptr;
  info item;
 void push();
@@ -24,7 +24,7 @@ void clear();
 void read();
 
 int main() {
- info *fre;
+ 
     read();
 
     int ch,ch2, ch3 ;
