@@ -24,7 +24,7 @@ void clear();
 void read();
 
 int main() {
-
+ fre=top;
     read();
 
     int ch,ch2, ch3 ;
@@ -77,6 +77,12 @@ int main() {
             clear();
             break;
         case 8:
+            fre=top;
+                while(top != NULL){
+                    top = top -> link;
+                    free(fre);
+                    fre = top;
+                }
             exit(1);
             default :
                 printf("\n please enter choice from 1 to 8 \n");
