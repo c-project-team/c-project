@@ -1,4 +1,4 @@
-Inventory Database	- C programming final project
+Inventory Database - C programming final project
 team members: 
    1- Moamen Nasser Asaad
    2- Abdallah emad
