@@ -3,5 +3,5 @@
   * Moamen Nasser Asaad
   * Abdallah Emad
   * Mahmoud Nabil Mohamed
-  * Said Ibrahim Zarad
+  * Sayed Ibrahim Zarad
   * Mostafa Mahmoud Mohamed
