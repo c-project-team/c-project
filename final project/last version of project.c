@@ -24,7 +24,7 @@ void clear();
 void read();
 
 int main() {
- fre=top;
+ info *fre;
     read();
 
     int ch,ch2, ch3 ;
