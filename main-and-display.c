@@ -72,6 +72,12 @@ int main() {
             clear();
             break;
         case 8:
+            fre=top;
+            while(top != NULL){
+                top = top -> link;
+                free(fre);
+                fre = top;
+            }
             exit(1);
             default :
                 printf("\n please enter choice from 1 to 8 \n");
