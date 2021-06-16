@@ -72,7 +72,6 @@ int main() {
             clear();
             break;
         case 8:
-            info *fre;
             fre=top;
             while(top != NULL){
                 top = top -> link;
